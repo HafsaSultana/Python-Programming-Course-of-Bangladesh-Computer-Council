@@ -10,3 +10,34 @@ print(s[2:5])
 
 print(5*5)
 print(4**3)
+
+print("Shape: 12 ")
+print("    *    ")
+print("   * *   ")
+print("  *   *  ")
+print(" *     * ")
+print("*       *")
+print(" *     * ")
+print("  *   *  ")
+print("   * *   ")
+print("    *    ")
+
+
+print("Shape: 13 ")
+
+print("*     *     *     *")
+print(" *   * *   * *   * ")
+print("  * *   * *   * *  ")
+print("   *     *     *   ")
+
+print("Shape: 9 ")
+
+print("    *    ")
+print("   ***   ")
+print("  *****  ")
+print(" ******* ")
+print("*********")
+print(" ******* ")
+print("  *****  ")
+print("   ***   ")
+print("    *    ")
