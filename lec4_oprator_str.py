@@ -34,3 +34,27 @@ input_string = "apple,banana,orange"
 split_list = input_string.split(',')
 print(split_list)  # Output: ["apple", "banana", "orange"]
 
+
+#5
+#input_string = "Taka956isneedforyou$"
+#input_string = "Taka956isneedddddddddddddddddddddddddforyou$"
+input_string = input("Enter your string:  ")
+amount_money = input_string[4:7]+input_string[len(input_string)-1]
+print("Total amount of money:  ", amount_money)
+
+
+
+#3
+
+a='a'
+e='e'
+i='i'
+o='o'
+u='u'
+string = "hello"
+
+#print(a in string )
+
+vowel = (a in string) or (e in string) or (i in string) or (o in string) or (u in string)
+
+print("The string contains the Vowel : ",vowel)

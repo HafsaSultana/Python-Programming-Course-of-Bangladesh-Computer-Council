@@ -21,12 +21,13 @@ print(l)
 S2 = message[-l] # ‘y’
 print("S2 is:  ",S2)
 
-
+###############
 message = "Python_Class"
 substring = message[1:6] # "ython" (extracts characters from index 1 to 6)
 print(substring)
 
 
+################
 txt = "Smiling is a kind act and the Sunnah of our beloved Prophet Muhammad (PBUH)."
 print(" Sunnah " in txt)     
 
