@@ -55,6 +55,8 @@ string = "hello"
 
 #print(a in string )
 
+#for vowel check
+
 vowel = (a in string) or (e in string) or (i in string) or (o in string) or (u in string)
 
 print("The string contains the Vowel : ",vowel)
