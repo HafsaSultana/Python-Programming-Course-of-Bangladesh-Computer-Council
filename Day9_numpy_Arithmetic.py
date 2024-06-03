@@ -13,10 +13,15 @@ x1 = rng.integers(10, size=6)  # one-dimensional array
 x2 = rng.integers(10, size=(3, 4))  # two-dimensional array
 x3 = rng.integers(10, size=(3, 4, 5))  # three-dimensional array
 
+print("x1:   ",x1)
+print("x2:   ",x2)
+print("x3:   ",x3)
+
 print("x3 ndim: ", x3.ndim)     # 3
 print("x3 shape:", x3.shape)    #(3, 4, 5)
 print("x3 size: ", x3.size)     #60
 print("dtype:   ", x3.dtype)    #int64
+print("x3_len",len(x1))
 
 
 
