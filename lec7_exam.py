@@ -27,3 +27,5 @@ def sum_double(a, b):
 
 def make_tags(tag, word):
   return('<'+tag+'>'+word+'</'+tag+'>')
+
+

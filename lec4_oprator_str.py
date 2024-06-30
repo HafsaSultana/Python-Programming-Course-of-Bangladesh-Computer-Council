@@ -60,3 +60,9 @@ string = "hello"
 vowel = (a in string) or (e in string) or (i in string) or (o in string) or (u in string)
 
 print("The string contains the Vowel : ",vowel)
+
+#
+def non_start(a, b):
+  return (a[1:len(a)]+b[1:len(b)])
+
+
