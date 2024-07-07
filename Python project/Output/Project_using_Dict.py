@@ -20,16 +20,19 @@ def grade_from_mark(mark):
 
 def process_grades(input_file, output_file):
     with open(input_file, 'r') as infile, open(output_file, 'w', newline='') as outfile:
-        reader = csv.DictReader(infile)
+        reader = csv.DictReader(infile)  #file read using dictonary
         writer = csv.writer(outfile)
         writer.writerow(['Name', 'Mark', 'Grade'])
 
         for row in reader:
+            
+            print(row['Name'])
+        
             name = row['Name']
             mark = int(row['Mark'])
             grade = grade_from_mark(mark)
             writer.writerow([name, mark, grade])
-
+            
 
 input_file = 'students.csv'
 output_file = 'result.csv'
